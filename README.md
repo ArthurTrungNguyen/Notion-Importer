@@ -51,7 +51,15 @@ pip install notion-client markdown2 requests
    - Example: For URL `https://www.notion.so/workspace/83c75a51b3774c2c8d5d42d55d1c23c4`
    - The page ID is `83c75a51b3774c2c8d5d42d55d1c23c4`
 
-### 4. Configure the Script
+### 4. Get ImgBB API Key
+
+1. Go to https://api.imgbb.com/
+2. Create an account or log in if you already have one
+3. Once logged in, go to your dashboard
+4. Click on "Create API Key" or find your existing API key
+5. Copy your API key for use in the configuration
+
+### 5. Configure the Script
 
 1. Open `config.json` in a text editor
 2. Update the following values:
@@ -66,7 +74,7 @@ pip install notion-client markdown2 requests
    - Replace `your_integration_token_here` with your Notion integration token
    - Replace `your_parent_page_id_here` with your destination page ID
    - Update `root_folder` with the path to your OneNote folder (use forward slashes)
-   - Replace `your_imgbb_api_key_here` with your ImgBB API key
+   - Replace `your_imgbb_api_key_here` with the ImgBB API key you obtained in step 4
 
 ## Running the Script
 
